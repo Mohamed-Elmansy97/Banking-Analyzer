@@ -1,0 +1,17 @@
+PaySim Fraud Detection Report
+==============================
+Total Unique Customers Scored: 100000
+Risk level distribution:
+risk_level
+Low         93677
+Medium       2931
+Critical     2314
+High         1078
+
+Top 5 Flagged Transactions:
+    step      type      amount     nameOrig  oldbalanceOrg  newbalanceOrig     nameDest  oldbalanceDest  newbalanceDest  isFraud  isFlaggedFraud  origin_is_merchant  dest_is_merchant  amount_z  is_suspicious
+19     1  TRANSFER   215310.30  C1670993182          705.0             0.0  C1100439041        22425.00            0.00        0               0               False             False  0.121139           True
+24     1  TRANSFER   311685.89  C1984094095        10835.0             0.0   C932583850         6267.00      2719172.89        0               0               False             False  0.401058           True
+82     1  TRANSFER   224606.64   C873175411            0.0             0.0   C766572210       354678.92            0.00        0               0               False             False  0.148140           True
+84     1  TRANSFER   379856.23  C1449772539            0.0             0.0  C1590550415       900180.00     19169204.93        0               0               False             False  0.599056           True
+85     1  TRANSFER  1505626.01   C926859124            0.0             0.0   C665576141        29031.00      5515763.34        0               0               False             False  3.868804           True
